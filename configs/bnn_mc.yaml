@@ -1,0 +1,14 @@
+# Bayesian Neural Network with Monte Carlo Dropout Configuration
+mode: mc
+seed: 1
+hidden: [256, 128]
+dropout: 0.20
+lr: 0.001
+weight_decay: 0.0002
+batch_size: 256
+epochs: 200
+patience: 10           
+mc_samples: 100
+train_end: 2012
+val_end: 2018
+intervals: [0.5, 0.9]

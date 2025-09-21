@@ -1,0 +1,45 @@
+{
+  "train_end": 2012,
+  "val_end": 2018,
+  "hidden": [
+    256,
+    128
+  ],
+  "dropout": 0.2,
+  "lr": 0.001,
+  "weight_decay": 0.0002,
+  "batch_size": 256,
+  "epochs": 200,
+  "patience": 10,
+  "intervals": [
+    0.5,
+    0.9
+  ],
+  "feature_cols": [
+    "sin_doy",
+    "cos_doy",
+    "TMAX_roll7_mean",
+    "TMAX_roll7_min",
+    "TMAX_roll7_max",
+    "PRCP_roll7_mean",
+    "TMAX_lag1",
+    "TMAX_lag2",
+    "TMAX_lag3",
+    "TMAX_lag7",
+    "TMAX_lag14",
+    "TMIN_lag1",
+    "TMIN_lag2",
+    "TMIN_lag3",
+    "TMIN_lag7",
+    "TMIN_lag14",
+    "PRCP_lag1",
+    "PRCP_lag2",
+    "PRCP_lag3",
+    "PRCP_lag7",
+    "PRCP_lag14"
+  ],
+  "target_col": "y_tmax_next",
+  "mode": "mc",
+  "seed": 1,
+  "mc_samples": 100
+}

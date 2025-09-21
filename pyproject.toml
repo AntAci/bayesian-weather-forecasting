@@ -1,0 +1,17 @@
+[project]
+name = "bayesian-weather-forecasting"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "joblib>=1.4.2",
+    "matplotlib>=3.7.5",
+    "numpy>=1.24.4",
+    "pandas>=2.0.3",
+    "pyarrow>=17.0.0",
+    "pyyaml>=6.0.2",
+    "scikit-learn>=1.3.2",
+    "seaborn>=0.13.2",
+    "torch>=1.12.0,<2.0.0",
+]

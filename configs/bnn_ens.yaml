@@ -1,0 +1,13 @@
+# Bayesian Neural Network, Ensemble Configuration
+mode: ensemble
+seeds: [1,2,3,4,5]
+hidden: [128, 64]
+dropout: 0.1
+lr: 0.001
+weight_decay: 1e-4
+batch_size: 256
+epochs: 200
+patience: 10
+train_end: 2012
+val_end: 2018
+intervals: [0.5, 0.9]
