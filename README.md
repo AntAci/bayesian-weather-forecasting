@@ -33,7 +33,7 @@ The system aims to provide **uncertainty-aware predictions** with proper calibra
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone <https://github.com/AntAci/bayesian-weather-forecasting>
 cd "BNN for Weather Forcasting"
 
 # Install dependencies (using uv for fast dependency management)
